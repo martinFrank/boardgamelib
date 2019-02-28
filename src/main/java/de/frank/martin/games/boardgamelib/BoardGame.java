@@ -14,7 +14,7 @@ public interface BoardGame<P extends Player> {
     /**
      * @return the current BasePlayer
      */
-    P getCurrent();
+    P getCurrentPlayer();
 
     /**
      * @return all Players

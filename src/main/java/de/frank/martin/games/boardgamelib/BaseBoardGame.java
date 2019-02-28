@@ -17,7 +17,7 @@ public class BaseBoardGame<P extends BasePlayer> implements BoardGame<P>{
     }
 
     @Override
-    public P getCurrent(){
+    public P getCurrentPlayer(){
         return players.get(currentPlayerIndex);
     }
 
