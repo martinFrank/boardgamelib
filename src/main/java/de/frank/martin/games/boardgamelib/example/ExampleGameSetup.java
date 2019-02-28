@@ -3,6 +3,7 @@ package de.frank.martin.games.boardgamelib.example;
 import de.frank.martin.games.boardgamelib.BoardGameSetup;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class ExampleGameSetup implements BoardGameSetup<ExamplePlayer> {
@@ -15,6 +16,7 @@ public class ExampleGameSetup implements BoardGameSetup<ExamplePlayer> {
                 new ExamplePlayer("Josh", 0xFF0000, false),
                 new ExamplePlayer("Peter", 0x0000FF, false)
         );
+        Collections.shuffle(players);
     }
 
 

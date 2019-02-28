@@ -15,13 +15,11 @@ public class App {
                 ExamplePlayer player = game.getCurrentPlayer();
                 System.out.println("Now it's "+player.getName()+"'s turn");
                 game.dice();
-                game.startPlayersTurn();
                 game.endPlayersTurn();
                 System.out.println(player.getName()+" has now "+player.getPoints() );
             }
             System.out.println();
         }
         game.printResults();
-
     }
 }
