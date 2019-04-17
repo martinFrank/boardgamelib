@@ -1,6 +1,4 @@
-package de.elite.games.boardgamelib.example;
-
-import de.elite.games.boardgamelib.BoardGameSetup;
+package de.elite.games.boardgamelib;
 
 import java.util.Arrays;
 import java.util.Collections;

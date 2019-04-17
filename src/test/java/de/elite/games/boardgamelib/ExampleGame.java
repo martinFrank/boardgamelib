@@ -1,6 +1,4 @@
-package de.elite.games.boardgamelib.example;
-
-import de.elite.games.boardgamelib.BaseBoardGame;
+package de.elite.games.boardgamelib;
 
 import java.util.ArrayList;
 import java.util.List;

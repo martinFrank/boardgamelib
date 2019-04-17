@@ -1,6 +1,4 @@
-package de.elite.games.boardgamelib.example;
-
-import de.elite.games.boardgamelib.BasePlayer;
+package de.elite.games.boardgamelib;
 
 public class ExamplePlayer extends BasePlayer<ExampleGame> {
 
