@@ -1,4 +1,4 @@
-package de.frank.martin.games.boardgamelib;
+package de.elite.games.boardgamelib;
 
 public interface Player<G extends BoardGame<?>> {
 

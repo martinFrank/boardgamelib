@@ -1,4 +1,4 @@
-package de.frank.martin.games.boardgamelib.example;
+package de.elite.games.boardgamelib.example;
 
 public class App {
 

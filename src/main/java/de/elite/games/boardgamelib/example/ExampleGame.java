@@ -1,12 +1,10 @@
-package de.frank.martin.games.boardgamelib.example;
+package de.elite.games.boardgamelib.example;
 
-import de.frank.martin.games.boardgamelib.BaseBoardGame;
-import de.frank.martin.games.boardgamelib.Player;
+import de.elite.games.boardgamelib.BaseBoardGame;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.StringJoiner;
 
 public class ExampleGame extends BaseBoardGame<ExamplePlayer> {
 

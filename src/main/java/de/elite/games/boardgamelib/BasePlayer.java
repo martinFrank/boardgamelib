@@ -1,4 +1,4 @@
-package de.frank.martin.games.boardgamelib;
+package de.elite.games.boardgamelib;
 
 public class BasePlayer<G extends BoardGame<?>> implements Player<G>{
 

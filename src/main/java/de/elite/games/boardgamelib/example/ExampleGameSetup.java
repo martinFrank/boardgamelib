@@ -1,6 +1,6 @@
-package de.frank.martin.games.boardgamelib.example;
+package de.elite.games.boardgamelib.example;
 
-import de.frank.martin.games.boardgamelib.BoardGameSetup;
+import de.elite.games.boardgamelib.BoardGameSetup;
 
 import java.util.Arrays;
 import java.util.Collections;

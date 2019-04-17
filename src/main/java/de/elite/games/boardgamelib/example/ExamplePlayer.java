@@ -1,6 +1,6 @@
-package de.frank.martin.games.boardgamelib.example;
+package de.elite.games.boardgamelib.example;
 
-import de.frank.martin.games.boardgamelib.BasePlayer;
+import de.elite.games.boardgamelib.BasePlayer;
 
 public class ExamplePlayer extends BasePlayer<ExampleGame> {
 
