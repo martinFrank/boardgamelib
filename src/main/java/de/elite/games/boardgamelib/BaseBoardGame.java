@@ -32,6 +32,8 @@ public class BaseBoardGame<P extends BasePlayer> implements BoardGame<P>{
 
     @Override
     public void startPlayersTurn() {
+        //this method is empty to provide an implementation of the abstract methode.
+        //not every board game needs this methods hence it may be empty
     }
 
     @Override
@@ -51,7 +53,8 @@ public class BaseBoardGame<P extends BasePlayer> implements BoardGame<P>{
 
     @Override
     public void initGame() {
-
+        //this method is empty to provide an implementation of the abstract methode.
+        //not every board game needs this methods hence it may be empty
     }
 
 }

@@ -22,6 +22,8 @@ public class BasePlayer<G extends BoardGame<?>> implements Player<G>{
     }
 
     public void performAiTurn() {
+        //this method is empty to provide an implementation of the abstract methode.
+        //not every board game needs an Ai
     }
 
     public void setGame(G boardGame) {
