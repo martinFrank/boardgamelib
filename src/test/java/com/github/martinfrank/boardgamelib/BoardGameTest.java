@@ -1,4 +1,4 @@
-package de.elite.games.boardgamelib;
+package com.github.martinfrank.boardgamelib;
 
 import org.junit.Assert;
 import org.junit.Test;

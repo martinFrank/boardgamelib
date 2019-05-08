@@ -1,4 +1,4 @@
-package de.elite.games.boardgamelib;
+package com.github.martinfrank.boardgamelib;
 
 public class ExamplePlayer extends BasePlayer<ExampleGame> {
 
