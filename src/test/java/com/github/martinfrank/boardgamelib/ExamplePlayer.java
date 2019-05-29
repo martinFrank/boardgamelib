@@ -15,4 +15,16 @@ public class ExamplePlayer extends BasePlayer<ExampleGame> {
     public int getPoints() {
         return currentPoints;
     }
+
+    @Override
+    public void performAiTurn() {
+        super.performAiTurn();
+        ExampleGame game = getBoardGame();
+        game.startPlayersTurn();
+
+        System.out.println("Now it's " + getName() + "'s turn");
+        game.dice();
+        game.endPlayersTurn();
+        System.out.println(getName() + " has now " + getPoints());
+    }
 }

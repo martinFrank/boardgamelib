@@ -17,11 +17,9 @@ public class BoardGameTest {
             Assert.assertFalse(game.isOver());
             System.out.println("round: " + game.getRound());
             for (int p = 0; p < game.getPlayers().size(); p++) {
+
                 ExamplePlayer player = game.getCurrentPlayer();
-                System.out.println("Now it's " + player.getName() + "'s turn");
-                game.dice();
-                game.endPlayersTurn();
-                System.out.println(player.getName() + " has now " + player.getPoints());
+                player.performAiTurn();
             }
             System.out.println();
         }
