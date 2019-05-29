@@ -48,7 +48,4 @@ public class ExampleGame extends BaseBoardGame<ExamplePlayer> {
         return winner;
     }
 
-    public boolean isOver() {
-        return getRound() >= getMaximumRounds();
-    }
 }

@@ -58,6 +58,14 @@ public class BaseBoardGame<P extends BasePlayer> implements BoardGame<P>{
     }
 
     @Override
+    public boolean isGameOver() {
+        if (maximumRounds > 0) {
+            return round == maximumRounds;
+        }
+        return false;
+    }
+
+    @Override
     public boolean isFirstPlayer() {
         return getCurrentPlayer().equals(players.get(0));
     }

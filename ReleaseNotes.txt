@@ -1,3 +1,6 @@
+Version 0.1.2
+  added method isGameOver
+
 Version 0.1.1
   added method isFistPlayer
   added method isLastPlayer

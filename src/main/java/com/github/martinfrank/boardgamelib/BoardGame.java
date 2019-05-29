@@ -57,4 +57,9 @@ public interface BoardGame<P extends Player> {
      * after setup you might want to init the game, maybe shuffle some cards
      */
     void initGame();
+
+    /**
+     * @return at the end of the game this method returns true otherwise false
+     */
+    boolean isGameOver();
 }
