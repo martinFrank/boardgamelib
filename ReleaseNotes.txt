@@ -1,0 +1,7 @@
+Version 0.1.1
+  added method isFistPlayer
+  added method isLastPlayer
+
+Version 0.1.0
+ initial Setup
+
