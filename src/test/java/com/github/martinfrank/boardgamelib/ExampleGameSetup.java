@@ -9,7 +9,7 @@ public class ExampleGameSetup implements BoardGameSetup<ExamplePlayer> {
     private final List<ExamplePlayer> players;
     private final ExamplePlayer[] template = new ExamplePlayer[]{
             new ExamplePlayer("Josh", 0xFF0000, false),
-            new ExamplePlayer("Peter", 0x0000FF, false),
+            new ExamplePlayer("Peter", 0x0000FF, true),
             new ExamplePlayer("Henry", 0x00FF00, false),
 
     };
