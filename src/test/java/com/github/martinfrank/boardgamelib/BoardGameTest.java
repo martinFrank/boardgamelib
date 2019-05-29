@@ -18,6 +18,7 @@ public class BoardGameTest {
             System.out.println("round: " + game.getRound());
             for (int p = 0; p < game.getPlayers().size(); p++) {
                 ExamplePlayer player = game.getCurrentPlayer();
+                player.getColor();
                 if (player.isHuman()) {
                     System.out.println("if i were human i should manually play my turn");
                     game.dice();
