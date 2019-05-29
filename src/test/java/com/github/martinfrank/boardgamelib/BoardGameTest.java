@@ -8,7 +8,7 @@ public class BoardGameTest {
     @Test
     public void test() {
         ExampleGame game = new ExampleGame();
-        ExampleGameSetup setup = new ExampleGameSetup();
+        ExampleGameSetup setup = new ExampleGameSetup(2);
         game.setup(setup);
         game.initGame();
 

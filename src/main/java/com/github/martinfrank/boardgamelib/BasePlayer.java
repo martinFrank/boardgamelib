@@ -13,29 +13,39 @@ public class BasePlayer<G extends BoardGame<?>> implements Player<G>{
         this.isHuman = isHuman;
     }
 
+    @Override
     public String getName() {
         return name;
     }
 
+    @Override
     public int getColor() {
         return color;
     }
 
+    @Override
     public void performAiTurn() {
         //this method is empty to provide an implementation of the abstract methode.
         //not every board game needs an Ai
     }
 
+    @Override
     public void setGame(G boardGame) {
         this.boardGame = boardGame;
     }
 
+    @Override
     public G getBoardGame() {
         return boardGame;
     }
 
+    @Override
     public boolean isHuman() {
         return isHuman;
     }
 
+    @Override
+    public boolean isAi() {
+        return !isHuman;
+    }
 }

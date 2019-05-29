@@ -57,4 +57,14 @@ public class BaseBoardGame<P extends BasePlayer> implements BoardGame<P>{
         //not every board game needs this methods hence it may be empty
     }
 
+    @Override
+    public boolean isFirstPlayer() {
+        return getCurrentPlayer().equals(players.get(0));
+    }
+
+    @Override
+    public boolean isLastPlayer() {
+        int lastIndex = players.size() - 1;
+        return getCurrentPlayer().equals(players.get(lastIndex));
+    }
 }

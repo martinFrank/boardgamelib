@@ -21,6 +21,16 @@ public interface BoardGame<P extends Player> {
      */
     List<P> getPlayers();
 
+
+    /**
+     * @return true if the current player has started the round, false otherwise
+     */
+    boolean isFirstPlayer();
+
+    /**
+     * @return true if the current player is the last of the round, false otherwise
+     */
+    boolean isLastPlayer();
     /**
      * this method should be invoked when the player has finished its turn.
      * use either this method or startPlayersTurn to move to the next player

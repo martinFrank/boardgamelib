@@ -13,4 +13,6 @@ public interface Player<G extends BoardGame<?>> {
     G getBoardGame();
 
     boolean isHuman();
+
+    boolean isAi();
 }
