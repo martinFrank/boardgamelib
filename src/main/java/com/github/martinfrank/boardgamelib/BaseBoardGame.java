@@ -14,6 +14,7 @@ public class BaseBoardGame<P extends BasePlayer> implements BoardGame<P>{
         this.players = setup.getPlayers();
         maximumRounds = setup.getMaximumRounds();
         players.forEach(p -> p.setGame(this));
+        currentPlayerIndex = 0;
     }
 
     @Override
